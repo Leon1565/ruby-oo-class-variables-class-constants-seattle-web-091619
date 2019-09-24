@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     
     if BRANDS.include?(brand) == nil
-      BRANDS << @brand
+      BRANDS << brand
     end
   end
 
