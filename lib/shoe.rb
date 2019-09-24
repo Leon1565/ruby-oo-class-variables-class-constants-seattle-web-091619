@@ -8,6 +8,8 @@ class Shoe
     @brand = brand
     if BRANDS.include?(brand)
       @brand
+    else
+      
     end
   end
 
