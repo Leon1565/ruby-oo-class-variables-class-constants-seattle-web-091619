@@ -9,7 +9,7 @@ class Shoe
     if BRANDS.include?(brand)
       @brand
     else
-      
+      BRANDS << @brand
     end
   end
 
